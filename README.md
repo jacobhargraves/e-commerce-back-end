@@ -10,6 +10,8 @@ In order to install the application, the user must clone the repository from Git
 
 ## Usage
 
+Link to video tutorial: https://drive.google.com/file/d/13pkV63kXUU63ssqJWeVUQgaeYl0JOPWU/view
+
 The user must then install the necessary dependencies by running the following command:npm install. 
 The user must then create a .env file in the root directory and add the following to it: DB_NAME='ecommerce_db', DB_USER='root', and DB_PASSWORD='password'. The user must then create the database by running the following command: mysql -u root -p and entering the password. The user must then run the following command: source db/schema.sql. The user must then quit MySQL by running the following command: quit. The user must then seed the database by running the following command: npm run seed. The user must then start the server by running the following command: npm start. The user can then test the routes in Insomnia Core.
 
